@@ -251,12 +251,24 @@ In keyboard's `config.h`:
 
 ## Git Workflow
 
-The main branch is `master`. This fork is on branch `wireless_playground`.
+### Repository Structure
+
+This is a personal fork with the following remotes:
+- `origin`: https://github.com/shamal/qmk_firmware.git (personal fork - push here)
+- `keychron`: https://github.com/Keychron/qmk_firmware.git (Keychron's fork)
+- `upstream`: https://github.com/qmk/qmk_firmware.git (official QMK)
+
+Current branch: `wireless_playground` (main branch is `master`)
+
+### Committing and Pushing
 
 When making commits, be descriptive:
 ```bash
 git add keyboards/keychron/k11_max/
 git commit -m "Added K11 Max JIS variant"
+
+# Push to personal fork
+git push origin wireless_playground
 ```
 
 ## Common Issues
