@@ -23,6 +23,7 @@
             "dual_beacon": true,
             "jellybean_raindrops": true,
             "pixel_rain": true,
+            "pixel_rain_reactive_multiwide": true,
             "rainbow_beacon": true,
             "rainbow_moving_chevron": true,
             "solid_reactive_multinexus": true,
