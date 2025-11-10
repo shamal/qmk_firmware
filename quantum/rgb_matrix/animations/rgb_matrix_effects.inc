@@ -28,7 +28,7 @@
 #include "hue_pendulum_anim.h"
 #include "hue_wave_anim.h"
 #include "pixel_rain_anim.h"
-#include "pixel_rain_reactive_multiwide_anim.h"
+#include "pixel_rain_solid_splash_anim.h"
 #include "pixel_flow_anim.h"
 #include "pixel_fractal_anim.h"
 #include "typing_heatmap_anim.h"
